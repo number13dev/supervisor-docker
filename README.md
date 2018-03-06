@@ -12,7 +12,8 @@ This repository contains **Dockerfile** of [Supervisor](http://supervisord.org/)
 
 2. Download [automated build](https://registry.hub.docker.com/u/kdelfour/supervisor-docker/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull kdelfour/supervisor-docker`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="kdelfour/supervisor-docker" https://github.com/kdelfour/supervisor-docker`)
+   (alternatively, you can build an image from Dockerfile: 
+   `sudo docker build --force-rm=true --tag="$USER/supervisor-docker:latest" . `
 
 ### Usage
 
