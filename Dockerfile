@@ -2,7 +2,7 @@
 # Based on a work at https://github.com/docker/docker.
 # ------------------------------------------------------------------------------
 # Pull base image.
-FROM ubuntu
+FROM ubuntu:16.04
 MAINTAINER Kevin Delfour <kevin@delfour.eu>
 
 # Install Supervisor.
